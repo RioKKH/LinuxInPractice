@@ -1,0 +1,4 @@
+taskset -c 0 ./sched <n> <total> <resol>
+schedプログラムを0番のCPUで実行する
+
+taskset -c 0 ./sched 1 100 1 > 1core_1process.txt
