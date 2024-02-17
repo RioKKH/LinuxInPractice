@@ -1,0 +1,1892 @@
+execve("/home/rio/.pyenv/shims/python3", ["python3", "./hello.py"], 0x7ffeda86e388 /* 37 vars */) = 0
+brk(NULL)                               = 0x55d2cdfe2000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fff14185690) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe43050c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7fff141848b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe4304f0000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe4302c7000
+mprotect(0x7fe4302ef000, 2023424, PROT_NONE) = 0
+mmap(0x7fe4302ef000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7fe4302ef000
+mmap(0x7fe430484000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7fe430484000
+mmap(0x7fe4304dd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7fe4304dd000
+mmap(0x7fe4304e3000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe4304e3000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe4302c4000
+arch_prctl(ARCH_SET_FS, 0x7fe4302c4740) = 0
+set_tid_address(0x7fe4302c4a10)         = 3716
+set_robust_list(0x7fe4302c4a20, 24)     = 0
+rseq(0x7fe4302c50e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7fe4304dd000, 16384, PROT_READ) = 0
+mprotect(0x55d2cdefc000, 4096, PROT_READ) = 0
+mprotect(0x7fe430546000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7fe4304f0000, 110707)          = 0
+getrandom("\xd5\xc6\xe7\x94\x95\x45\x3a\x45", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55d2cdfe2000
+brk(0x55d2ce003000)                     = 0x55d2ce003000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe42fed5000
+close(3)                                = 0
+execve("/user/local/cuda-11.7/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/cuda/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/bashtools/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/pytools/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/shims/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/sbin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/sbin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/bin/bash", ["bash", "/home/rio/.pyenv/shims/python3", "./hello.py"], 0x7fff14185880 /* 37 vars */) = 0
+brk(NULL)                               = 0x560dd730a000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7fff400c9d40) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6cdbcc3000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7fff400c8f60, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6cdbca7000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=200136, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 203040, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6cdbc75000
+mmap(0x7f6cdbc83000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f6cdbc83000
+mmap(0x7f6cdbc94000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f6cdbc94000
+mmap(0x7f6cdbca2000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7f6cdbca2000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6cdba4c000
+mprotect(0x7f6cdba74000, 2023424, PROT_NONE) = 0
+mmap(0x7f6cdba74000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f6cdba74000
+mmap(0x7f6cdbc09000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f6cdbc09000
+mmap(0x7f6cdbc62000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7f6cdbc62000
+mmap(0x7f6cdbc68000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6cdbc68000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6cdba49000
+arch_prctl(ARCH_SET_FS, 0x7f6cdba49740) = 0
+set_tid_address(0x7f6cdba49a10)         = 3716
+set_robust_list(0x7f6cdba49a20, 24)     = 0
+rseq(0x7f6cdba4a0e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f6cdbc62000, 16384, PROT_READ) = 0
+mprotect(0x7f6cdbca2000, 16384, PROT_READ) = 0
+mprotect(0x560dd6fd5000, 16384, PROT_READ) = 0
+mprotect(0x7f6cdbcfd000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f6cdbca7000, 110707)          = 0
+openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+close(3)                                = 0
+getrandom("\x53\x33\x20\x63\xe3\x57\x5d\xa5", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x560dd730a000
+brk(0x560dd732b000)                     = 0x560dd732b000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6cdb65a000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7f6cdbcbc000
+close(3)                                = 0
+futex(0x7f6cdbc67a6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+geteuid()                               = 1000
+getegid()                               = 1000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+ioctl(-1, TIOCGPGRP, 0x7fff400c9c34)    = -1 EBADF (不正なファイル記述子です)
+sysinfo({uptime=25177, loads=[0, 0, 0], totalram=25046618112, freeram=22654984192, sharedram=29229056, bufferram=72040448, totalswap=6442450944, freeswap=6442450944, procs=364, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+uname({sysname="Linux", nodename="ThinkPadP14s", ...}) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio", {st_mode=S_IFDIR|0750, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+getpid()                                = 3716
+getppid()                               = 3713
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/user/local/cuda-11.7/bin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/bin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/bin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/bashtools/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/pytools/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/shims/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/bin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/sbin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/bin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/sbin/bash", 0x7fff400c9870, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+getpid()                                = 3716
+getppid()                               = 3713
+getpid()                                = 3716
+getppid()                               = 3713
+getpgrp()                               = 3713
+ioctl(2, TIOCGPGRP, [3713])             = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x560dd6eead10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, 8) = 0
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=95519, rlim_max=95519}) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/shims/python3", O_RDONLY) = 3
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/shims/python3", {st_mode=S_IFREG|0755, st_size=176, ...}, 0) = 0
+ioctl(3, TCGETS, 0x7fff400c9bd0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/usr/bin/env bash\nset -e\n[ -n "..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (不正なファイル記述子です)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+newfstatat(255, "", {st_mode=S_IFREG|0755, st_size=176, ...}, AT_EMPTY_PATH) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+read(255, "#!/usr/bin/env bash\nset -e\n[ -n "..., 176) = 176
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f6cdba8e520}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, {sa_handler=0x560dd6eead10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f6cdba8e520}, 8) = 0
+execve("/home/rio/.pyenv/libexec/pyenv", ["/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x560dd7319450 /* 36 vars */) = 0
+brk(NULL)                               = 0x560d39cb3000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffffc993950) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff92c676000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7ffffc992b70, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff92c65a000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff92c431000
+mprotect(0x7ff92c459000, 2023424, PROT_NONE) = 0
+mmap(0x7ff92c459000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7ff92c459000
+mmap(0x7ff92c5ee000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7ff92c5ee000
+mmap(0x7ff92c647000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7ff92c647000
+mmap(0x7ff92c64d000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff92c64d000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff92c42e000
+arch_prctl(ARCH_SET_FS, 0x7ff92c42e740) = 0
+set_tid_address(0x7ff92c42ea10)         = 3716
+set_robust_list(0x7ff92c42ea20, 24)     = 0
+rseq(0x7ff92c42f0e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7ff92c647000, 16384, PROT_READ) = 0
+mprotect(0x560d38139000, 4096, PROT_READ) = 0
+mprotect(0x7ff92c6b0000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7ff92c65a000, 110707)          = 0
+getrandom("\x10\x83\x95\xf1\x70\x46\x89\xf3", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x560d39cb3000
+brk(0x560d39cd4000)                     = 0x560d39cd4000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff92c03f000
+close(3)                                = 0
+execve("/user/local/cuda-11.7/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/cuda/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/bashtools/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/pytools/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/shims/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/sbin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/sbin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv", "exec", "python3", "./hello.py"], 0x7ffffc993b50 /* 36 vars */) = 0
+brk(NULL)                               = 0x559729957000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd0bf1e730) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f87bdc9d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7ffd0bf1d950, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f87bdc81000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=200136, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 203040, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f87bdc4f000
+mmap(0x7f87bdc5d000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f87bdc5d000
+mmap(0x7f87bdc6e000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f87bdc6e000
+mmap(0x7f87bdc7c000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7f87bdc7c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f87bda26000
+mprotect(0x7f87bda4e000, 2023424, PROT_NONE) = 0
+mmap(0x7f87bda4e000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f87bda4e000
+mmap(0x7f87bdbe3000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f87bdbe3000
+mmap(0x7f87bdc3c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7f87bdc3c000
+mmap(0x7f87bdc42000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f87bdc42000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f87bda23000
+arch_prctl(ARCH_SET_FS, 0x7f87bda23740) = 0
+set_tid_address(0x7f87bda23a10)         = 3716
+set_robust_list(0x7f87bda23a20, 24)     = 0
+rseq(0x7f87bda240e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f87bdc3c000, 16384, PROT_READ) = 0
+mprotect(0x7f87bdc7c000, 16384, PROT_READ) = 0
+mprotect(0x559728b49000, 16384, PROT_READ) = 0
+mprotect(0x7f87bdcd7000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f87bdc81000, 110707)          = 0
+openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+close(3)                                = 0
+getrandom("\x08\x11\x6d\x89\xe4\xe1\xbe\x21", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x559729957000
+brk(0x559729978000)                     = 0x559729978000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f87bd634000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7f87bdc96000
+close(3)                                = 0
+futex(0x7f87bdc41a6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+geteuid()                               = 1000
+getegid()                               = 1000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+ioctl(-1, TIOCGPGRP, 0x7ffd0bf1e624)    = -1 EBADF (不正なファイル記述子です)
+sysinfo({uptime=25177, loads=[0, 0, 0], totalram=25046618112, freeram=22654984192, sharedram=29229056, bufferram=72040448, totalswap=6442450944, freeswap=6442450944, procs=364, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+uname({sysname="Linux", nodename="ThinkPadP14s", ...}) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio", {st_mode=S_IFDIR|0750, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+getpid()                                = 3716
+getppid()                               = 3713
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/user/local/cuda-11.7/bin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/bin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/bin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/bashtools/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/pytools/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/shims/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/bin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/sbin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/bin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/sbin/bash", 0x7ffd0bf1e260, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+getpid()                                = 3716
+getppid()                               = 3713
+getpid()                                = 3716
+getppid()                               = 3713
+getpgrp()                               = 3713
+ioctl(2, TIOCGPGRP, [3713])             = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=95519, rlim_max=95519}) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/libexec/pyenv", O_RDONLY) = 3
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/libexec/pyenv", {st_mode=S_IFREG|0755, st_size=3187, ...}, 0) = 0
+ioctl(3, TCGETS, 0x7ffd0bf1e5c0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/usr/bin/env bash\nset -e\n\nif ["..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (不正なファイル記述子です)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+newfstatat(255, "", {st_mode=S_IFREG|0755, st_size=3187, ...}, AT_EMPTY_PATH) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+read(255, "#!/usr/bin/env bash\nset -e\n\nif ["..., 3187) = 3187
+openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+fcntl(2, F_GETFD)                       = 0
+fcntl(2, F_DUPFD, 10)                   = 10
+fcntl(2, F_GETFD)                       = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+dup2(3, 2)                              = 2
+close(3)                                = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/libexec/../libexec/pyenv-realpath.dylib", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2996, ...}, AT_EMPTY_PATH) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/ja_JP.UTF8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja_JP.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja_JP/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja.UTF8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP.UTF8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja.UTF8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja/LC_MESSAGES/libc.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=135628, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 135628, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f87bd612000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/locale/ja_JP.UTF8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja_JP.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja_JP/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja.UTF8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale/ja/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP.UTF8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja_JP/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja.UTF8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja.utf8/LC_MESSAGES/bash.mo", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/share/locale-langpack/ja/LC_MESSAGES/bash.mo", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=116091, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 116091, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f87bd5f5000
+close(3)                                = 0
+newfstatat(2, "", {st_mode=S_IFCHR|0666, st_rdev=makedev(0x1, 0x3), ...}, AT_EMPTY_PATH) = 0
+ioctl(2, TCGETS, 0x7ffd0bf1d820)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+write(2, "/home/rio/.pyenv/libexec/pyenv: "..., 347) = 347
+dup2(10, 2)                             = 2
+fcntl(10, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+close(10)                               = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -2005, SEEK_CUR)             = 1182
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f87bda23a10) = 3717
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+close(4)                                = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/usr/bin/readlink\n", 512)     = 18
+read(3, "", 512)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3717, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3717
+wait4(-1, 0x7ffd0bf1cf50, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[INT]})              = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "\nif [ -z \"${PYENV_ROOT}\" ]; then"..., 3187) = 2005
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -1667, SEEK_CUR)             = 1520
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f87bda23a10) = 3720
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+close(4)                                = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3720, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3720
+wait4(-1, 0x7ffd0bf1d590, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[]})                 = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/home/rio/work/git/LinuxInPracti"..., 512) = 35
+read(3, "", 512)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "export PYENV_DIR\n\n\nshopt -s null"..., 3187) = 1667
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -1598, SEEK_CUR)             = 1589
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f87bda23a10) = 3721
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+close(4)                                = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/home/rio/.pyenv/libexec\n", 512) = 25
+read(3, "", 512)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3721, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3721
+wait4(-1, 0x7ffd0bf1d490, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[INT]})              = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "for plugin_bin in \"${bin_path%/*"..., 3187) = 1598
+openat(AT_FDCWD, "/home/rio/.pyenv/plugins/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+brk(0x55972999e000)                     = 0x55972999e000
+getdents64(3, 0x559729975cd0 /* 5 entries */, 32768) = 144
+getdents64(3, 0x559729975cd0 /* 0 entries */, 32768) = 0
+brk(0x559729996000)                     = 0x559729996000
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/pyenv-update", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/pyenv-update/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/python-build", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/python-build/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/plugins/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x559729978b80 /* 5 entries */, 32768) = 144
+getdents64(3, 0x559729978b80 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/pyenv-update", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/pyenv-update/etc", 0x7ffd0bf1e060, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/python-build", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/python-build/etc", 0x7ffd0bf1e060, AT_SYMLINK_NOFOLLOW) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f87bda23a10) = 3725
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+close(4)                                = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3725, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3725
+wait4(-1, 0x7ffd0bf1cf90, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[]})                 = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/home/rio/.pyenv/libexec/pyenv-e"..., 512) = 36
+read(3, "", 512)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a60dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f87bda68520}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, {sa_handler=0x559728a5ed10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f87bda68520}, 8) = 0
+execve("/home/rio/.pyenv/libexec/pyenv-exec", ["/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x559729975470 /* 38 vars */) = 0
+brk(NULL)                               = 0x5621ad24a000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd0852e0e0) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f766a9e1000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7ffd0852d300, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f766a9c5000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f766a79c000
+mprotect(0x7f766a7c4000, 2023424, PROT_NONE) = 0
+mmap(0x7f766a7c4000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f766a7c4000
+mmap(0x7f766a959000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f766a959000
+mmap(0x7f766a9b2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7f766a9b2000
+mmap(0x7f766a9b8000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f766a9b8000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f766a799000
+arch_prctl(ARCH_SET_FS, 0x7f766a799740) = 0
+set_tid_address(0x7f766a799a10)         = 3716
+set_robust_list(0x7f766a799a20, 24)     = 0
+rseq(0x7f766a79a0e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f766a9b2000, 16384, PROT_READ) = 0
+mprotect(0x5621acf22000, 4096, PROT_READ) = 0
+mprotect(0x7f766aa1b000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f766a9c5000, 110707)          = 0
+getrandom("\xe0\xff\x0a\x4f\x07\x17\xbb\x61", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x5621ad24a000
+brk(0x5621ad26b000)                     = 0x5621ad26b000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f766a3aa000
+close(3)                                = 0
+execve("/home/rio/.pyenv/libexec/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/plugins/python-build/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/plugins/pyenv-update/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/user/local/cuda-11.7/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/cuda/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/bashtools/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/work/git/pytools/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/shims/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/home/rio/.pyenv/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/sbin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/local/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/sbin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+execve("/usr/bin/bash", ["bash", "/home/rio/.pyenv/libexec/pyenv-e"..., "python3", "./hello.py"], 0x7ffd0852e2d8 /* 38 vars */) = 0
+brk(NULL)                               = 0x557c41b40000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd87d1ac10) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff04e5a5000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7ffd87d19e30, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff04e589000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=200136, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 203040, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff04e557000
+mmap(0x7ff04e565000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7ff04e565000
+mmap(0x7ff04e576000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7ff04e576000
+mmap(0x7ff04e584000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2c000) = 0x7ff04e584000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff04e32e000
+mprotect(0x7ff04e356000, 2023424, PROT_NONE) = 0
+mmap(0x7ff04e356000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7ff04e356000
+mmap(0x7ff04e4eb000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7ff04e4eb000
+mmap(0x7ff04e544000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7ff04e544000
+mmap(0x7ff04e54a000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff04e54a000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff04e32b000
+arch_prctl(ARCH_SET_FS, 0x7ff04e32b740) = 0
+set_tid_address(0x7ff04e32ba10)         = 3716
+set_robust_list(0x7ff04e32ba20, 24)     = 0
+rseq(0x7ff04e32c0e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7ff04e544000, 16384, PROT_READ) = 0
+mprotect(0x7ff04e584000, 16384, PROT_READ) = 0
+mprotect(0x557c403fa000, 16384, PROT_READ) = 0
+mprotect(0x7ff04e5df000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7ff04e589000, 110707)          = 0
+openat(AT_FDCWD, "/dev/tty", O_RDWR|O_NONBLOCK) = 3
+close(3)                                = 0
+getrandom("\x55\x76\x34\xad\x27\xb8\xa8\x58", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x557c41b40000
+brk(0x557c41b61000)                     = 0x557c41b61000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff04df3c000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7ff04e59e000
+close(3)                                = 0
+futex(0x7ff04e549a6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+getgid()                                = 1000
+geteuid()                               = 1000
+getegid()                               = 1000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+ioctl(-1, TIOCGPGRP, 0x7ffd87d1ab04)    = -1 EBADF (不正なファイル記述子です)
+sysinfo({uptime=25177, loads=[0, 0, 0], totalram=25046618112, freeram=22656847872, sharedram=29229056, bufferram=72040448, totalswap=6442450944, freeswap=6442450944, procs=364, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+uname({sysname="Linux", nodename="ThinkPadP14s", ...}) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio", {st_mode=S_IFDIR|0750, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+getpid()                                = 3716
+getppid()                               = 3713
+newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/libexec/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/python-build/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/plugins/pyenv-update/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/user/local/cuda-11.7/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/bashtools/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/work/git/pytools/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/shims/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/sbin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/bin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/sbin/bash", 0x7ffd87d1a740, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", X_OK)           = 0
+newfstatat(AT_FDCWD, "/usr/bin/bash", {st_mode=S_IFREG|0755, st_size=1396520, ...}, 0) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+getuid()                                = 1000
+getgid()                                = 1000
+access("/usr/bin/bash", R_OK)           = 0
+getpid()                                = 3716
+getppid()                               = 3713
+getpid()                                = 3716
+getppid()                               = 3713
+getpgrp()                               = 3713
+ioctl(2, TIOCGPGRP, [3713])             = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+prlimit64(0, RLIMIT_NPROC, NULL, {rlim_cur=95519, rlim_max=95519}) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/libexec/pyenv-exec", O_RDONLY) = 3
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/libexec/pyenv-exec", {st_mode=S_IFREG|0755, st_size=1179, ...}, 0) = 0
+ioctl(3, TCGETS, 0x7ffd87d1aaa0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/usr/bin/env bash\n#\n# Summary:"..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (不正なファイル記述子です)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+newfstatat(255, "", {st_mode=S_IFREG|0755, st_size=1179, ...}, AT_EMPTY_PATH) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+read(255, "#!/usr/bin/env bash\n#\n# Summary:"..., 1179) = 1179
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -540, SEEK_CUR)              = 639
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff04e32ba10) = 3726
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+close(4)                                = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "3.9.15\n", 512)                = 7
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3726, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3726
+wait4(-1, 0x7ffd87d19950, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[INT]})              = 7
+read(3, "", 512)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "PYENV_COMMAND=\"$1\"\n\nif [ -z \"$PY"..., 1179) = 540
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -370, SEEK_CUR)              = 809
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff04e32ba10) = 3734
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+close(4)                                = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/home/rio/.pyenv/versions/3.9.15"..., 512) = 45
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3734, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3734
+wait4(-1, 0x7ffd87d19950, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[INT]})              = 45
+read(3, "", 512)                        = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "PYENV_BIN_PATH=\"${PYENV_COMMAND_"..., 1179) = 370
+pipe2([3, 4], 0)                        = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigprocmask(SIG_BLOCK, [INT TERM CHLD], [], 8) = 0
+lseek(255, -274, SEEK_CUR)              = 905
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff04e32ba10) = 3739
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+close(4)                                = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+read(3, "/home/rio/.pyenv/pyenv.d/exec/pi"..., 512) = 46
+read(3, "", 512)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=3739, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 3739
+wait4(-1, 0x7ffd87d19990, WNOHANG, NULL) = -1 ECHILD (子プロセスがありません)
+rt_sigreturn({mask=[INT]})              = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c40311dc0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+read(255, "IFS=\"$OLDIFS\"\nfor script in \"${s"..., 1179) = 274
+openat(AT_FDCWD, "/home/rio/.pyenv/pyenv.d/exec/pip-rehash.bash", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=533, ...}, AT_EMPTY_PATH) = 0
+read(3, "PYENV_PIP_REHASH_ROOT=\"${BASH_SO"..., 533) = 533
+close(3)                                = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+faccessat2(AT_FDCWD, "/home/rio/.pyenv/pyenv.d/exec/pip-rehash/python3", X_OK, AT_EACCESS) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7ff04e370520}, 8) = 0
+rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, {sa_handler=0x557c4030fd10, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7ff04e370520}, 8) = 0
+execve("/home/rio/.pyenv/versions/3.9.15/bin/python3", ["/home/rio/.pyenv/versions/3.9.15"..., "./hello.py"], 0x557c41b547c0 /* 39 vars */) = 0
+brk(NULL)                               = 0x5633b5e5c000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd6039e570) = -1 EINVAL (無効な引数です)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f21e0000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v3", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/glibc-hwcaps/x86-64-v2", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/x86_64", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/haswell", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls/x86_64", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/tls", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/x86_64", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/haswell/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/haswell", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64/x86_64", 0x7ffd6039d790, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/usr/local/cuda/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=110707, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 110707, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f10f21c4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=940560, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 942344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f10f20dd000
+mmap(0x7f10f20eb000, 507904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f10f20eb000
+mmap(0x7f10f2167000, 372736, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8a000) = 0x7f10f2167000
+mmap(0x7f10f21c2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe4000) = 0x7f10f21c2000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/local/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "glibc-hwcaps/x86-64-v2/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "haswell/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\237\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0 \0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0"..., 48, 848) = 48
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\302\211\332Pq\2439\235\350\223\322\257\201\326\243\f"..., 68, 896) = 68
+newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=2220400, ...}, AT_EMPTY_PATH) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2264656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f10f1eb4000
+mprotect(0x7f10f1edc000, 2023424, PROT_NONE) = 0
+mmap(0x7f10f1edc000, 1658880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f10f1edc000
+mmap(0x7f10f2071000, 360448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f10f2071000
+mmap(0x7f10f20ca000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x7f10f20ca000
+mmap(0x7f10f20d0000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f10f20d0000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f1eb1000
+arch_prctl(ARCH_SET_FS, 0x7f10f1eb1740) = 0
+set_tid_address(0x7f10f1eb1a10)         = 3716
+set_robust_list(0x7f10f1eb1a20, 24)     = 0
+rseq(0x7f10f1eb20e0, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f10f20ca000, 16384, PROT_READ) = 0
+mprotect(0x7f10f21c2000, 4096, PROT_READ) = 0
+mprotect(0x5633b548f000, 24576, PROT_READ) = 0
+mprotect(0x7f10f221a000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f10f21c4000, 110707)          = 0
+getrandom("\xa6\xd6\x14\x20\xac\xff\x65\x2b", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x5633b5e5c000
+brk(0x5633b5e7d000)                     = 0x5633b5e7d000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4121216, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 4121216, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f10f1ac2000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=27002, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7f10f21d9000
+close(3)                                = 0
+futex(0x7f10f20cfa6c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getcwd("/home/rio/work/git/LinuxInPractice", 4096) = 35
+readlink("/home/rio/.pyenv/versions/3.9.15/bin/python3", "python3.9", 4096) = 9
+readlink("/home/rio/.pyenv/versions/3.9.15/bin/python3.9", 0x7ffd60398b40, 4096) = -1 EINVAL (無効な引数です)
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/pyvenv.cfg", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/Modules/Setup.local", 0x7ffd60399b00, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/lib/python3.9/os.py", 0x7ffd603999c0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/lib/python3.9/os.pyc", 0x7ffd603999c0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/os.py", {st_mode=S_IFREG|0644, st_size=39065, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/pybuilddir.txt", O_RDONLY) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/lib/python3.9/lib-dynload", 0x7ffd60398af0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+getrandom("\x07\xeb\xd1\x91\xfd\xf9\x1b\xce\x21\x84\x54\xaf\x91\xa3\x5a\xc5\x70\x54\x9b\xad\xa9\xfa\x94\x02", 24, GRND_NONBLOCK) = 24
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f1a82000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f1a42000
+brk(0x5633b5ea3000)                     = 0x5633b5ea3000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f1a02000
+sysinfo({uptime=25177, loads=[0, 0, 0], totalram=25046618112, freeram=22655815680, sharedram=29229056, bufferram=72040448, totalswap=6442450944, freeswap=6442450944, procs=364, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=309, ...}, AT_EMPTY_PATH) = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=309, ...}, AT_EMPTY_PATH) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 309
+lseek(3, -176, SEEK_CUR)                = 133
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 176
+close(3)                                = 0
+brk(0x5633b5ec4000)                     = 0x5633b5ec4000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python39.zip", 0x7ffd6039c5d0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python39.zip", 0x7ffd6039c360, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=12288, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5633b5ea3530 /* 210 entries */, 32768) = 6984
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f19c2000
+getdents64(3, 0x5633b5ea3530 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__init__.cpython-39-x86_64-linux-gnu.so", 0x7ffd6039c760, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__init__.abi3.so", 0x7ffd6039c760, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__init__.so", 0x7ffd6039c760, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5588, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5588, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__pycache__/__init__.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3923, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039ce20)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3923, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0@\35\234c\324\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3924) = 3923
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/codecs.py", {st_mode=S_IFREG|0644, st_size=36673, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/codecs.py", {st_mode=S_IFREG|0644, st_size=36673, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/codecs.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=33914, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c100)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=33914, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234cA\217\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 33915) = 33914
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5633b5eb2510 /* 125 entries */, 32768) = 4224
+getdents64(3, 0x5633b5eb2510 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15677, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15677, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__pycache__/aliases.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6356, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039b950)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6356, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0@\35\234c==\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 6357) = 6356
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__pycache__/utf_8.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1658, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039ced0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1658, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0@\35\234c\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1659) = 1658
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x5633b52ede90, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/encodings/__pycache__/latin_1.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1921, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039cf70)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=1921, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0@\35\234c\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1922) = 1921
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/io.py", {st_mode=S_IFREG|0644, st_size=3541, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/io.py", {st_mode=S_IFREG|0644, st_size=3541, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/io.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3434, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039cf70)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3434, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234c\325\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3435) = 3434
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/abc.py", {st_mode=S_IFREG|0644, st_size=4920, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/abc.py", {st_mode=S_IFREG|0644, st_size=4920, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/abc.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5801, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c250)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=5801, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234c8\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 5802) = 5801
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (不正なシークです)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(1)                                  = 3
+close(3)                                = 0
+newfstatat(1, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (不正なシークです)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(2)                                  = 3
+close(3)                                = 0
+newfstatat(2, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x2), ...}, AT_EMPTY_PATH) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (不正なシークです)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site.py", {st_mode=S_IFREG|0644, st_size=21564, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site.py", {st_mode=S_IFREG|0644, st_size=21564, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/site.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=16815, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039cf70)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=16815, ...}, AT_EMPTY_PATH) = 0
+brk(0x5633b5ee6000)                     = 0x5633b5ee6000
+read(3, "a\r\r\n\0\0\0\0?\35\234c<T\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 16816) = 16815
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x5633b5ee2000)                     = 0x5633b5ee2000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/os.py", {st_mode=S_IFREG|0644, st_size=39065, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/os.py", {st_mode=S_IFREG|0644, st_size=39065, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/os.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31672, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c250)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31672, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234c\231\230\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 31673) = 31672
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f1982000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/stat.py", {st_mode=S_IFREG|0644, st_size=5485, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/stat.py", {st_mode=S_IFREG|0644, st_size=5485, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/stat.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4398, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039b530)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4398, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234cm\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4399) = 4398
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f195d000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=29374, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=29374, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/_collections_abc.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31757, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039b530)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31757, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234c\276r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 31758) = 31757
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/posixpath.py", {st_mode=S_IFREG|0644, st_size=15721, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/posixpath.py", {st_mode=S_IFREG|0644, st_size=15721, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/posixpath.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=10355, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039b530)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=10355, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234ci=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 10356) = 10355
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f191d000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/genericpath.py", {st_mode=S_IFREG|0644, st_size=4975, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/genericpath.py", {st_mode=S_IFREG|0644, st_size=4975, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/genericpath.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4050, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039a810)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4050, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234co\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4051) = 4050
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/_sitebuiltins.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3527, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c250)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3527, ...}, AT_EMPTY_PATH) = 0
+read(3, "a\r\r\n\0\0\0\0?\35\234c+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3528) = 3527
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/bin/pyvenv.cfg", 0x7ffd6039c910, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/pyvenv.cfg", 0x7ffd6039c910, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+newfstatat(AT_FDCWD, "/home/rio/.local/lib/python3.9/site-packages", 0x7ffd6039cb80, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=20480, ...}, AT_EMPTY_PATH) = 0
+getdents64(3, 0x5633b5ecbe90 /* 516 entries */, 32768) = 21256
+getdents64(3, 0x5633b5ecbe90 /* 0 entries */, 32768) = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/distutils-precedence.pth", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=151, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c560)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd6039c7d0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1801, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1801, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/_bootlocale.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=1253, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039b680)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=1253, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\t\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1254) = 1253
+read(4, "", 1)                          = 0
+close(4)                                = 0
+read(3, "import os; var = 'SETUPTOOLS_USE"..., 8192) = 151
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(4, 0x5633b5ecdec0 /* 78 entries */, 32768) = 4816
+getdents64(4, 0x5633b5ecdec0 /* 0 entries */, 32768) = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=20480, ...}, AT_EMPTY_PATH) = 0
+getdents64(4, 0x5633b5ece6d0 /* 516 entries */, 32768) = 21256
+getdents64(4, 0x5633b5ece6d0 /* 0 entries */, 32768) = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__init__.cpython-39-x86_64-linux-gnu.so", 0x7ffd6039afc0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__init__.abi3.so", 0x7ffd6039afc0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__init__.so", 0x7ffd6039afc0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__init__.py", {st_mode=S_IFREG|0644, st_size=6299, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__init__.py", {st_mode=S_IFREG|0644, st_size=6299, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/_distutils_hack/__pycache__/__init__.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=7650, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039b680)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=7650, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0\27R\222e\233\30\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 7651) = 7650
+read(4, "", 1)                          = 0
+close(4)                                = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/matplotlib-3.6.2-py3.9-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=569, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039c560)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffd6039c7d0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 569
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/types.py", {st_mode=S_IFREG|0644, st_size=9785, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/types.py", {st_mode=S_IFREG|0644, st_size=9785, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/types.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9262, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039b740)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9262, ...}, AT_EMPTY_PATH) = 0
+brk(0x5633b5f04000)                     = 0x5633b5f04000
+read(4, "a\r\r\n\0\0\0\0?\35\234c9&\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 9263) = 9262
+read(4, "", 1)                          = 0
+close(4)                                = 0
+brk(0x5633b5f02000)                     = 0x5633b5f02000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__init__.cpython-39-x86_64-linux-gnu.so", 0x7ffd6039a7a0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__init__.abi3.so", 0x7ffd6039a7a0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__init__.so", 0x7ffd6039a7a0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=6061, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=6061, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__pycache__/__init__.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=3859, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039ae60)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=3859, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234c\255\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 3860) = 3859
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/warnings.py", {st_mode=S_IFREG|0644, st_size=19688, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/warnings.py", {st_mode=S_IFREG|0644, st_size=19688, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/warnings.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=13631, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039a140)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=13631, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\350L\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 13632) = 13631
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+getdents64(4, 0x5633b5ee33b0 /* 12 entries */, 32768) = 392
+getdents64(4, 0x5633b5ee33b0 /* 0 entries */, 32768) = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/util.py", {st_mode=S_IFREG|0644, st_size=11321, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/util.py", {st_mode=S_IFREG|0644, st_size=11321, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__pycache__/util.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9348, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039b680)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=9348, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234c9,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 9349) = 9348
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=14924, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=14924, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__pycache__/abc.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=16843, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd6039a1b0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=16843, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234cL:\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 16844) = 16843
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f18dd000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/importlib/__pycache__/machinery.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=990, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60398ce0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=990, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234cL\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 991) = 990
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/typing.py", {st_mode=S_IFREG|0644, st_size=77044, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/typing.py", {st_mode=S_IFREG|0644, st_size=77044, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/typing.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=71961, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60399490)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=71961, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\364,\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 71962) = 71961
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__init__.cpython-39-x86_64-linux-gnu.so", 0x7ffd603980b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__init__.abi3.so", 0x7ffd603980b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__init__.so", 0x7ffd603980b0, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=49819, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=49819, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__pycache__/__init__.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=48127, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60398770)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=48127, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234c\233\302\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 48128) = 48127
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f189d000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/heapq.py", {st_mode=S_IFREG|0644, st_size=22877, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/heapq.py", {st_mode=S_IFREG|0644, st_size=22877, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/heapq.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=14066, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=14066, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c]Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 14067) = 14066
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload/_heapq.cpython-39-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=59304, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload/_heapq.cpython-39-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+newfstatat(4, "", {st_mode=S_IFREG|0755, st_size=59304, ...}, AT_EMPTY_PATH) = 0
+mmap(NULL, 29256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f10f21d1000
+mmap(0x7f10f21d2000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7f10f21d2000
+mmap(0x7f10f21d4000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7f10f21d4000
+mmap(0x7f10f21d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x5000) = 0x7f10f21d7000
+close(4)                                = 0
+mprotect(0x7f10f21d7000, 4096, PROT_READ) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/keyword.py", {st_mode=S_IFREG|0644, st_size=1047, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/keyword.py", {st_mode=S_IFREG|0644, st_size=1047, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/keyword.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=942, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=942, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\27\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 943) = 942
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/operator.py", {st_mode=S_IFREG|0644, st_size=10751, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/operator.py", {st_mode=S_IFREG|0644, st_size=10751, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/operator.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=13810, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=13810, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\377)\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 13811) = 13810
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/reprlib.py", {st_mode=S_IFREG|0644, st_size=5267, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/reprlib.py", {st_mode=S_IFREG|0644, st_size=5267, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/reprlib.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=5333, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=5333, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\223\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 5334) = 5333
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+newfstatat(4, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+brk(0x5633b5f26000)                     = 0x5633b5f26000
+getdents64(4, 0x5633b5efd950 /* 5 entries */, 32768) = 144
+getdents64(4, 0x5633b5efd950 /* 0 entries */, 32768) = 0
+brk(0x5633b5f1e000)                     = 0x5633b5f1e000
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/abc.py", {st_mode=S_IFREG|0644, st_size=119, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/abc.py", {st_mode=S_IFREG|0644, st_size=119, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/collections/__pycache__/abc.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=263, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60398770)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=263, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0@\35\234cw\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 264) = 263
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/contextlib.py", {st_mode=S_IFREG|0644, st_size=24624, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/contextlib.py", {st_mode=S_IFREG|0644, st_size=24624, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/contextlib.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=19564, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60398770)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=19564, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c0`\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 19565) = 19564
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/functools.py", {st_mode=S_IFREG|0644, st_size=38881, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/functools.py", {st_mode=S_IFREG|0644, st_size=38881, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/functools.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=28749, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=28749, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\341\227\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 28750) = 28749
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f185d000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/re.py", {st_mode=S_IFREG|0644, st_size=15861, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/re.py", {st_mode=S_IFREG|0644, st_size=15861, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/re.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=14388, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60398770)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=14388, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\365=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 14389) = 14388
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/enum.py", {st_mode=S_IFREG|0644, st_size=39440, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/enum.py", {st_mode=S_IFREG|0644, st_size=39440, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/enum.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=26046, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=26046, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\20\232\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 26047) = 26046
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_compile.py", {st_mode=S_IFREG|0644, st_size=27973, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_compile.py", {st_mode=S_IFREG|0644, st_size=27973, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/sre_compile.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=15180, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=15180, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234cEm\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 15181) = 15180
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_parse.py", {st_mode=S_IFREG|0644, st_size=40779, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_parse.py", {st_mode=S_IFREG|0644, st_size=40779, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/sre_parse.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=21835, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60396d30)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=21835, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234cK\237\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 21836) = 21835
+read(4, "", 1)                          = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_constants.py", {st_mode=S_IFREG|0644, st_size=7177, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/sre_constants.py", {st_mode=S_IFREG|0644, st_size=7177, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/sre_constants.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=6362, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60396010)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=6362, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234c\t\34\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 6363) = 6362
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f10f181d000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/copyreg.py", {st_mode=S_IFREG|0644, st_size=7274, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/copyreg.py", {st_mode=S_IFREG|0644, st_size=7274, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/__pycache__/copyreg.cpython-39.pyc", O_RDONLY|O_CLOEXEC) = 4
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=4456, ...}, AT_EMPTY_PATH) = 0
+ioctl(4, TCGETS, 0x7ffd60397a50)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(4, 0, SEEK_CUR)                   = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+newfstatat(4, "", {st_mode=S_IFREG|0644, st_size=4456, ...}, AT_EMPTY_PATH) = 0
+read(4, "a\r\r\n\0\0\0\0?\35\234cj\34\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 4457) = 4456
+read(4, "", 1)                          = 0
+close(4)                                = 0
+brk(0x5633b5f3f000)                     = 0x5633b5f3f000
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits/__init__.cpython-39-x86_64-linux-gnu.so", 0x7ffd6039b800, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits/__init__.abi3.so", 0x7ffd6039b800, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits/__init__.so", 0x7ffd6039b800, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits/__init__.py", 0x7ffd6039b800, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits/__init__.pyc", 0x7ffd6039b800, 0) = -1 ENOENT (そのようなファイルやディレクトリはありません)
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages/mpl_toolkits", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9", {st_mode=S_IFDIR|0755, st_size=12288, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/.pyenv/versions/3.9.15/lib/python3.9/site-packages", {st_mode=S_IFDIR|0755, st_size=20480, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice/./hello.py", {st_mode=S_IFREG|0644, st_size=47, ...}, 0) = 0
+openat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice/./hello.py", O_RDONLY|O_CLOEXEC) = 3
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039db80)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, -22, SEEK_END)                 = 25
+lseek(3, 0, SEEK_CUR)                   = 25
+read(3, "rint(\"Hello, World!\")\n", 4096) = 22
+lseek(3, 0, SEEK_END)                   = 47
+lseek(3, 0, SEEK_CUR)                   = 47
+lseek(3, 0, SEEK_SET)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47, ...}, AT_EMPTY_PATH) = 0
+read(3, "#!/usr/bin/env python3\n\nprint(\"H"..., 48) = 47
+read(3, "", 1)                          = 0
+close(3)                                = 0
+newfstatat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice/./hello.py", {st_mode=S_IFREG|0644, st_size=47, ...}, 0) = 0
+readlink("./hello.py", 0x7ffd6038d430, 4096) = -1 EINVAL (無効な引数です)
+getcwd("/home/rio/work/git/LinuxInPractice", 1024) = 35
+readlink("/home/rio/work/git/LinuxInPractice/hello.py", 0x7ffd6038cba0, 1023) = -1 EINVAL (無効な引数です)
+openat(AT_FDCWD, "/home/rio/work/git/LinuxInPractice/./hello.py", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47, ...}, AT_EMPTY_PATH) = 0
+ioctl(3, TCGETS, 0x7ffd6039e3d0)        = -1 ENOTTY (デバイスに対する不適切なioctlです)
+lseek(3, 0, SEEK_CUR)                   = 0
+newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47, ...}, AT_EMPTY_PATH) = 0
+read(3, "#!/usr/bin/env python3\n\nprint(\"H"..., 4096) = 47
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "#!/usr/bin/env python3\n\nprint(\"H"..., 4096) = 47
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+write(1, "Hello, World!\n", 14)         = 14
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, {sa_handler=0x5633b52ede90, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f10f1ef6520}, 8) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

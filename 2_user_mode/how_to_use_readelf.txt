@@ -1,0 +1,129 @@
+rio@ThinkPadP14s:~/work/git/LinuxInPractice/3_process$ readelf -h /bin/sleep
+ELF ヘッダ:
+  マジック:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00
+  クラス:                            ELF64
+  データ:                            2 の補数、リトルエンディアン
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI バージョン:                    0
+  型:                                DYN (Position-Independent Executable file)
+  マシン:                            Advanced Micro Devices X86-64
+  バージョン:                        0x1
+  エントリポイントアドレス:               0x2b90
+  プログラムヘッダ始点:          64 (バイト)
+  セクションヘッダ始点:          33344 (バイト)
+  フラグ:                            0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         13
+  Size of section headers:           64 (bytes)
+  Number of section headers:         31
+  Section header string table index: 30
+
+
+コードとデータのファイル内オフセット、サイズ、開始アドレスを得るには
+[-S]オプションを使う
+
+rio@ThinkPadP14s:~/work/git/LinuxInPractice/3_process$ readelf -S /bin/sleep
+There are 31 section headers, starting at offset 0x8240:
+
+セクションヘッダ:
+  [番] 名前              タイプ           アドレス          オフセット
+       サイズ            EntSize          フラグ Link  情報  整列
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .interp           PROGBITS         0000000000000318  00000318
+       000000000000001c  0000000000000000   A       0     0     1
+  [ 2] .note.gnu.pr[...] NOTE             0000000000000338  00000338
+       0000000000000030  0000000000000000   A       0     0     8
+  [ 3] .note.gnu.bu[...] NOTE             0000000000000368  00000368
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 4] .note.ABI-tag     NOTE             000000000000038c  0000038c
+       0000000000000020  0000000000000000   A       0     0     4
+  [ 5] .gnu.hash         GNU_HASH         00000000000003b0  000003b0
+       0000000000000024  0000000000000000   A       6     0     8
+  [ 6] .dynsym           DYNSYM           00000000000003d8  000003d8
+       0000000000000588  0000000000000018   A       7     1     8
+  [ 7] .dynstr           STRTAB           0000000000000960  00000960
+       00000000000002be  0000000000000000   A       0     0     1
+  [ 8] .gnu.version      VERSYM           0000000000000c1e  00000c1e
+       0000000000000076  0000000000000002   A       6     0     2
+  [ 9] .gnu.version_r    VERNEED          0000000000000c98  00000c98
+       0000000000000060  0000000000000000   A       7     1     8
+  [10] .rela.dyn         RELA             0000000000000cf8  00000cf8
+       0000000000000180  0000000000000018   A       6     0     8
+  [11] .rela.plt         RELA             0000000000000e78  00000e78
+       0000000000000438  0000000000000018  AI       6    25     8
+  [12] .init             PROGBITS         0000000000002000  00002000
+       0000000000000025  0000000000000000  AX       0     0     4
+  [13] .plt              PROGBITS         0000000000002030  00002030
+       00000000000002e0  0000000000000010  AX       0     0     16
+  [14] .plt.got          PROGBITS         0000000000002310  00002310
+       0000000000000010  0000000000000010  AX       0     0     16
+  [15] .plt.sec          PROGBITS         0000000000002320  00002320
+       00000000000002d0  0000000000000010  AX       0     0     16
+  [16] .text             PROGBITS         00000000000025f0  000025f0  <-- コード領域のメモリマップ開始アドレス
+       0000000000002b81  0000000000000000  AX       0     0     16
+  [17] .fini             PROGBITS         0000000000005174  00005174
+       0000000000000012  0000000000000000  AX       0     0     4
+  [18] .rodata           PROGBITS         0000000000006000  00006000
+       0000000000000a60  0000000000000000   A       0     0     32
+  [19] .eh_frame_hdr     PROGBITS         0000000000006a60  00006a60
+       0000000000000094  0000000000000000   A       0     0     4
+  [20] .eh_frame         PROGBITS         0000000000006af8  00006af8
+       00000000000003c8  0000000000000000   A       0     0     8
+  [21] .ctors            PROGBITS         0000000000008be0  00007be0
+       0000000000000010  0000000000000000  WA       0     0     8
+  [22] .dtors            PROGBITS         0000000000008bf0  00007bf0
+       0000000000000010  0000000000000000  WA       0     0     8
+  [23] .data.rel.ro      PROGBITS         0000000000008c00  00007c00
+       0000000000000060  0000000000000000  WA       0     0     32
+  [24] .dynamic          DYNAMIC          0000000000008c60  00007c60
+       00000000000001b0  0000000000000010  WA       7     0     8
+  [25] .got              PROGBITS         0000000000008e10  00007e10
+       00000000000001d8  0000000000000008  WA       0     0     8
+  [26] .data             PROGBITS         0000000000009000  00008000  <-- データ領域のメモリマップ開始アドレス
+       0000000000000098  0000000000000000  WA       0     0     32
+  [27] .bss              NOBITS           00000000000090a0  00008098
+       0000000000000130  0000000000000000  WA       0     0     32
+  [28] .gnu_debugaltlink PROGBITS         0000000000000000  00008098
+       0000000000000049  0000000000000000           0     0     1
+  [29] .gnu_debuglink    PROGBITS         0000000000000000  000080e4
+       0000000000000034  0000000000000000           0     0     4
+  [30] .shstrtab         STRTAB           0000000000000000  00008118
+       0000000000000125  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), l (large), p (processor specific)
+
+
+
+rio@ThinkPadP14s:~/work/git/LinuxInPractice/3_process$ /bin/sleep 10000 &
+[1] 6060
+rio@ThinkPadP14s:~/work/git/LinuxInPractice/3_process$ cat /proc/6060/maps
+555beac82000-555beac84000 r--p 00000000 08:20 2211                       /usr/bin/sleep
+555beac84000-555beac88000 r-xp 00002000 08:20 2211                       /usr/bin/sleep
+555beac88000-555beac89000 r--p 00006000 08:20 2211                       /usr/bin/sleep
+555beac8a000-555beac8b000 r--p 00007000 08:20 2211                       /usr/bin/sleep
+555beac8b000-555beac8c000 rw-p 00008000 08:20 2211                       /usr/bin/sleep
+555beb0e2000-555beb103000 rw-p 00000000 00:00 0                          [heap]
+7f3c6cdfa000-7f3c6d1e9000 r--p 00000000 08:20 15662                      /usr/lib/locale/locale-archive
+7f3c6d1e9000-7f3c6d1ec000 rw-p 00000000 00:00 0
+7f3c6d1ec000-7f3c6d214000 r--p 00000000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d214000-7f3c6d3a9000 r-xp 00028000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d3a9000-7f3c6d401000 r--p 001bd000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d401000-7f3c6d402000 ---p 00215000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d402000-7f3c6d406000 r--p 00215000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d406000-7f3c6d408000 rw-p 00219000 08:20 117244                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f3c6d408000-7f3c6d415000 rw-p 00000000 00:00 0
+7f3c6d431000-7f3c6d433000 rw-p 00000000 00:00 0
+7f3c6d433000-7f3c6d435000 r--p 00000000 08:20 117240                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3c6d435000-7f3c6d45f000 r-xp 00002000 08:20 117240                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3c6d45f000-7f3c6d46a000 r--p 0002c000 08:20 117240                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3c6d46b000-7f3c6d46d000 r--p 00037000 08:20 117240                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f3c6d46d000-7f3c6d46f000 rw-p 00039000 08:20 117240                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffdb02e8000-7ffdb0309000 rw-p 00000000 00:00 0                          [stack]
+7ffdb0394000-7ffdb0398000 r--p 00000000 00:00 0                          [vvar]
+7ffdb0398000-7ffdb039a000 r-xp 00000000 00:00 0                          [vdso] 
